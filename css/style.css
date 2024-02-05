@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.titolotabela{
+  text-align: center;
+}
+.cabecalho{
+  height: 50px;
+  background-color: white;
+}
+.principal{
+  height: 800px;
+  width: 1200px;
+  background-color: white;
+  float: left;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+.secundario{
+  height: 800px;
+  width: 680px;
+  background-color: white;
+  float: right;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+
+.table-fixed tbody{
+  height: 500px;
+  overflow-y: auto;
+  width: 100%;
+}
+.table-fixed thead,
+.table-fixed tbody,
+.table-fixed td,
+.table-fixed th{
+  display: block;
+}
+.table-fixed tbody td,
+.table-fixed thead > tr > th{
+  float: left;
+  border-bottom-width: 0;
+}
+.table{
+  font-size: 11px;
+}
+.tituloprincipal{
+  text-align: center;
+}
+#icone{
+  font-size: 15px;
+}
+.thead, th{
+  background: green;
+}
