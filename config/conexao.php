@@ -1,8 +1,8 @@
 <?php 
 
-    $servidor="localhost"; //arquivos.net.br
-    $usuario="dudu";    //agsarq01_dudu
-    $senha = "123"; //58349651@Dudu
+    $servidor="localhost";
+    $usuario="dudu";
+    $senha = "123";
     $banco = "agsarq44_efetivo";
 
      $con = new mysqli($servidor, $usuario, $senha, $banco);
